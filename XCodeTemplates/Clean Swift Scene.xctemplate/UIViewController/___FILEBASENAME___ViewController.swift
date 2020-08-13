@@ -19,32 +19,11 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
   // MARK: - Private Properties
 
-  //
-
   // MARK: - Init
-
-  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    setup()
-  }
-
-  required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-    setup()
-  }
-
-  private func setup() {
-    let interactor = ___VARIABLE_sceneName___Interactor()
-    let presenter = ___VARIABLE_sceneName___Presenter()
-    let router = ___VARIABLE_sceneName___Router()
-
-    interactor.presenter = presenter
-    presenter.viewController = self
-    router.viewController = self
-    router.dataStore = interactor
-
-    self.interactor = interactor
-    self.router = router
+  
+  override loadView() {
+    super.loadView()
+    ___VARIABLE_sceneName___Configurator.sharedInstance.configure(viewController: self)
   }
 
   // MARK: - Lifecycle
