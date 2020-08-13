@@ -21,7 +21,7 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
   // MARK: - Init
   
-  override loadView() {
+  override func loadView() {
     super.loadView()
     ___VARIABLE_sceneName___Configurator.sharedInstance.configure(viewController: self)
   }
