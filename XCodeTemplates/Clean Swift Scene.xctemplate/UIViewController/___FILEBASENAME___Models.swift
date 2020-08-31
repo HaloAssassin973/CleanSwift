@@ -3,12 +3,16 @@
 import UIKit
 
 enum ___VARIABLE_sceneName___Models {
-  
-  enum Something {
-    struct Request {}
     
-    struct Response {}
-    
-    struct ViewModel {}
-  }
+    enum Something {
+        struct Request {
+            
+        }
+        struct Response {
+            
+        }
+        struct ViewModel {
+            
+        }
+    }
 }

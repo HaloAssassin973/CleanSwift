@@ -11,11 +11,11 @@ final class ___VARIABLE_sceneName___Configurator {
         
         let interactor = ___VARIABLE_sceneName___Interactor()
         interactor.presenter = presenter
-
+        
         let router = ___VARIABLE_sceneName___Router()
         router.viewController = viewController
         router.dataStore = interactor
-
+        
         viewController.interactor = interactor
         viewController.router = router
     }
