@@ -2,11 +2,11 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___PresentationLogic {
+protocol ___VARIABLE_sceneName___PresentationLogic: AnyObject {
 
 }
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
+final class ___VARIABLE_sceneName___Presenter: {
 
   // MARK: - Public Properties
 
@@ -14,9 +14,10 @@ final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___Presentat
 
   // MARK: - Private Properties
   
-  //
+}
 
-  // MARK: - Presentation Logic
-  
-  //
+// MARK: - ___VARIABLE_sceneName___ Presentation Logic
+
+extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
+	
 }

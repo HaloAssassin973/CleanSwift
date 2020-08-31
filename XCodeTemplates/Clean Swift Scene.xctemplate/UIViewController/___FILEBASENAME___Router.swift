@@ -2,15 +2,15 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___RoutingLogic {
+protocol ___VARIABLE_sceneName___RoutingLogic: AnyObject {
 
 }
 
-protocol ___VARIABLE_sceneName___DataPassing {
+protocol ___VARIABLE_sceneName___DataPassing: AnyObject {
   var dataStore: ___VARIABLE_sceneName___DataStore? { get }
 }
 
-final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
+final class ___VARIABLE_sceneName___Router {
 
   // MARK: - Public Properties
 
@@ -18,18 +18,17 @@ final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic
   var dataStore: ___VARIABLE_sceneName___DataStore?
   
   // MARK: - Private Properties
-  
-  //
 
-  // MARK: - Routing Logic
-  
-  //
+}
 
-  // MARK: - Navigation
-  
-  //
+// MARK: - ___VARIABLE_sceneName___ Routing Logic
 
-  // MARK: - Passing data
+extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic {
   
-  //
+}
+
+//MARK: - ___VARIABLE_sceneName___ Data Passing
+
+extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
+  
 }
