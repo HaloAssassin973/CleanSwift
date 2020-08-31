@@ -2,15 +2,15 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___BusinessLogic {
+protocol ___VARIABLE_sceneName___BusinessLogic: AnyObject {
 
 }
 
-protocol ___VARIABLE_sceneName___DataStore {
+protocol ___VARIABLE_sceneName___DataStore: AnyObject {
 
 }
 
-final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic, ___VARIABLE_sceneName___DataStore {
+final class ___VARIABLE_sceneName___Interactor {
 
   // MARK: - Public Properties
 
@@ -18,10 +18,17 @@ final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___Business
   lazy var worker: ___VARIABLE_sceneName___WorkingLogic = ___VARIABLE_sceneName___Worker()
 
   // MARK: - Private Properties
-  
-  //
 
-  // MARK: - Business Logic
-  
-  //
+}
+
+// MARK: - ___VARIABLE_sceneName___ Business Logic
+
+extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic {
+	
+}
+
+// MARK: - ___VARIABLE_sceneName___ Data Store
+
+extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___DataStore {
+	
 }

@@ -10,16 +10,12 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
   // MARK: - UI Outlets
   
-  //
-  
   // MARK: - Public Properties
 
   var interactor: ___VARIABLE_sceneName___BusinessLogic?
   var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
 
   // MARK: - Private Properties
-
-  //
 
   // MARK: - Lifecycle
 
@@ -30,11 +26,9 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
   // MARK: - Public Methods
   
-  //
 
   // MARK: - Requests
   
-  //
 
   // MARK: - Private Methods
 
@@ -44,10 +38,9 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
   
   // MARK: - UI Actions
   
-  //
 }
 
-// MARK: - Display Logic
+// MARK: - ___VARIABLE_sceneName___ Display Logic
 
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___DisplayLogic {
 
